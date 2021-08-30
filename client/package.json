@@ -1,0 +1,64 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "js-sha256": "^0.9.0",
+    "particles-bg": "^2.5.5",
+    "react": "^17.0.2",
+    "react-beforeunload": "^2.5.1",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-modal": "^3.14.3",
+    "react-pro-sidebar": "^0.6.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-switch": "^6.0.0",
+    "react-toastify": "^7.0.4",
+    "react-tooltip": "^4.2.21",
+    "redux": "^4.1.0",
+    "simple-peer": "^9.11.0",
+    "socket.io-client": "^4.1.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify-icons/carbon": "^1.1.4",
+    "@iconify/icons-akar-icons": "^1.1.14",
+    "@iconify/icons-bi": "^1.1.5",
+    "@iconify/icons-bx": "^1.1.0",
+    "@iconify/icons-carbon": "^1.1.4",
+    "@iconify/icons-fluent": "^1.1.21",
+    "@iconify/icons-gg": "^1.1.0",
+    "@iconify/react": "^1.1.4"
+  }
+}

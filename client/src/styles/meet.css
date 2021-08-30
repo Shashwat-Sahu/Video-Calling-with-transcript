@@ -1,0 +1,338 @@
+*{
+    font-family: ubuntu;
+    outline: none;
+}
+.meet-parent{
+ 
+    background:rgb(43, 42, 42);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction:row;
+    overflow-x: hidden;
+    position: relative;
+}
+.meet-teams-logo:hover{
+    cursor: pointer;
+}
+.meet-outer-layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+}
+.members-with-config{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    align-self: flex-start;
+    height: 100%;
+    justify-content:space-evenly;
+}
+@keyframes meet-slide-left {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes meet-slide-right {
+    0%{
+        width: 80%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.meet-top-option-box{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px;
+    width: 20%;
+}
+.meet-top-option-box div,.meet-top-option-box svg
+{
+    width: 40px;
+    height:40px;
+}
+.screen-share{
+    color: #10a19f;
+    width: 40px;
+    height:40px;
+}
+.screen-share:hover
+{
+    cursor: pointer;
+}
+.screen-share-box {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-self: flex-start;
+    place-items: center;
+    justify-content:center;
+}
+.meet_And_screen_share{
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+    justify-content:center;
+    place-items: center;
+
+}
+#share-screen-user{
+    width: 98%;
+    height: 98%;
+    box-shadow: 0 0 20px 10px rgb(43, 42, 42);
+}
+.meet-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+}
+.meet-icons img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.screen-share-disabled:hover{
+    cursor:not-allowed;
+}
+.members-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 100%;
+    height: 80%;
+}
+.camera-off-member{
+    margin: 20px;
+    width: 80%;
+    max-width: 400px;
+    height: 200px;
+    background: linear-gradient(110.08deg, rgba(31, 59, 68, 0.4) 4.89%, rgba(31, 59, 68, 0.1) 93.4%);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(31, 7, 116, 0.5);
+    border-right: 1px solid rgba(31, 7, 116, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    box-shadow: 0 0 20px rgb(43, 42, 42);
+    position: relative;
+}
+.member-name-initial{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    place-items: center;
+    color: #ffffff;
+    font-size: 2rem;
+    box-shadow:5px 5px 10px rgb(51, 50, 50),-1px -1px 5px #ffffff;
+}
+.member-name
+{
+    color:#fff;
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+.user-video-box{
+    width: 80%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 27px;
+    object-fit: cover;
+    margin: 20px;
+    position: relative;
+}
+.meet-options{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    place-items: center;
+    background: linear-gradient(110.08deg, rgba(31, 59, 68, 0.4) 4.89%, rgba(31, 59, 68, 0.1) 93.4%);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(31, 7, 116, 0.5);
+    border-right: 1px solid rgba(31, 7, 116, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    max-width: 300px;
+    width: 80%;
+    padding:10px;
+    border-radius: 27px;
+    align-self: center;
+    box-shadow: 0 0 20px rgb(43, 42, 42);
+}
+.meet-controllers
+{
+    color: #fff;
+    font-size: 1.8em;
+}
+.disconnect-meet{
+    background-color: rgb(224, 68, 68);
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgb(65, 63, 63);
+}
+.meet-controllers:hover{
+    cursor: pointer;
+}
+.Modal-Box-Meet-options{
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+}
+.meet-modal-controllers{
+    font-size:1.4em
+}
+.ReactModal__Content
+{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name-input-meet{
+    width: 80%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #C4BCBC;
+    padding:10px;
+    font-family: Ubuntu;
+    margin: 10px;
+    font-size: 1.1em;
+}
+.Modal-Box-Meet-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+}
+.other-options{
+    position: relative;
+}
+.dropdown-meet{
+    list-style: none;
+    background-color: rgb(11, 153, 146);
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+    left: -120px;
+    display: none;
+    top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #2b2a2a;
+}
+.dropdown-meet li{
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #C4BCBC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dropdown-meet li:hover{
+    background-color: #0b5f4d;
+    cursor: pointer;
+}
+.dropdown-meet li:last-child
+{
+    border-bottom: none;
+}
+.background-switcher{
+    width: 30%!important;
+}
+.other-options:hover{
+    cursor: pointer;
+}
+.other-options:hover .dropdown-meet{
+    display: block;
+}
+.Transcript-down-position
+{
+    background-color: rgba(34, 34, 34, 0.822);
+    color: #fff;
+    font-size: 1.8em;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+@media screen and (max-width:660px) {
+    .members-row{
+        width: 100%;
+        overflow:auto;
+        height:100%;
+        order: 2;
+    }
+    .members-with-config{
+        justify-content: flex-start;
+        width: 100%!important;
+        overflow: hidden;
+    }
+    .meet-options{
+        margin: 20px;
+        order: 1;
+    }
+    .screen-share{
+        color: #10a19f;
+        width: 40px;
+        height:40px;
+    }
+    .camera-off-member{
+        width: 90%!important;
+    }
+    .ReactModal__Content
+    {
+        width: 70%;
+    }
+    .meet-top-option-box{
+        width:50%
+    }
+    .meet_And_screen_share{
+        flex-direction: column;
+        height: 85%;
+        position:relative;
+    }
+    .screen-share-box{
+        width:100%;
+        height: auto;
+        z-index: 1;     
+    }
+    .user-video-box{
+        width: 90%;
+
+    }
+}
