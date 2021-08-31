@@ -26,8 +26,16 @@ Challenge was basically about generating transcript and connecting two people on
 
 were used to build this project.
 # Steps to Access
+**Important**
+<br/>
+* Please get MONGO URI from mongodb and paste it into .env
+* Please get app Id and app secret from symbl.ai
+
+<br/>
 **To Join Meeting**
 <br/>
+
+
 Step 1: Sign Up on website and then login.
 <br/>
 Step 2: Create Room with name (optional) or join room by either pasting url in browser or using room ID.
