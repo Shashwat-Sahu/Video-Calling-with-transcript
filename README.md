@@ -36,6 +36,7 @@ MONGO = "uri token"
 appId = "token"
 <br/>
 appSecret = "token"
+* Set JWTSecret as per your needs in .env
 
 <br/>
 
