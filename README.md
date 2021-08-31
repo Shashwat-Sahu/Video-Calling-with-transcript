@@ -28,8 +28,14 @@ were used to build this project.
 # Steps to Access
 **Important**
 <br/>
-* Please get MONGO URI from mongodb and paste it into .env
-* Please get app Id and app secret from symbl.ai and paste it into .env
+* Please get MONGO URI from mongodb and paste it into .env as 
+<br/>
+MONGO = "uri token"
+* Please get app Id and app secret from symbl.ai and paste it into .env as
+<br/>
+appId = "token"
+<br/>
+appSecret = "token"
 
 <br/>
 
