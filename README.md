@@ -13,7 +13,7 @@ Challenge was basically about generating transcript and connecting two people on
 
 **Website Link**: [teams-clone-shashwat](https://teams-clone-shashwat-sahu.web.app)
 
-**Youtube Link:**: [teams-clone-shashwat-youtube](https://youtu.be/_Lk43g-i_eY)
+**Youtube Link:**: [Transcript generation in Video call](https://youtu.be/8iSFCWuq1no)
 
 ***Thanks to [symbl.ai](https://platform.symbl.ai/#/home) for Live Speech to Text API*** 
 
