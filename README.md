@@ -1,5 +1,5 @@
 # Transcript Generation in Video Call
-Hey Code geek, welcome to my project 'Transcript generate in video call'. It was a great journey to build such great project with everyone. We beleived that many deaf people require engagement in these video calls , so my feature will defenitely help in it. Apart from this , it can also be used as minutes of the meeting.
+Hey Code geek, welcome to my project 'Transcript generate in video call'. It was a great journey to build such great project with everyone. We believed that many deaf people require engagement in these video calls , so my feature will defenitely help in it. Apart from this , it can also be used as minutes of the meeting.
 <br/>
 Challenge was basically about generating transcript and connecting two people on teams via video calling. On above of that I incorporated following features:
 * [Join or Create Room](#create-room)
