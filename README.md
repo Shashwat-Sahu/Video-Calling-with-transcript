@@ -1,7 +1,7 @@
-# Microsoft Teams Clone
-Hey Code geek, welcome to my project 'Microsoft Teams Clone'. It was under the challenge of Engage Mentorship program 2021 by Microsoft. Its been a great journey and quite insightful too.
+# Transcript Generation in Video Call
+Hey Code geek, welcome to my project 'Transcript generate in video call'. It was a great journey to build such great project with everyone. We beleived that many deaf people require engagement in these video calls , so my feature will defenitely help in it. Apart from this , it can also be used as minutes of the meeting.
 <br/>
-Challenge was basically about connecting two people on teams via video calling. On above of that I incorporated following features:
+Challenge was basically about generating transcript and connecting two people on teams via video calling. On above of that I incorporated following features:
 * [Join or Create Room](#create-room)
 * [Group Video Calling](#meeting)
 * [Meeting Chat (inside meeting)](#meeting-chats)
@@ -15,7 +15,44 @@ Challenge was basically about connecting two people on teams via video calling. 
 
 **Youtube Link:**: [teams-clone-shashwat-youtube](https://youtu.be/_Lk43g-i_eY)
 
-***Thanks to [symbl.ai](https://platform.symbl.ai/#/home) for transcript API*** 
+***Thanks to [symbl.ai](https://platform.symbl.ai/#/home) for Live Speech to Text API*** 
+
+# Tech Stack
+* React.js
+* Symbl.ai
+* Node.js
+* MongoDB
+* WebRTC
+
+were used to build this project.
+# Steps to Access
+**To Join Meeting**
+<br/>
+Step 1: Sign Up on website and then login.
+<br/>
+Step 2: Create Room with name (optional) or join room by either pasting url in browser or using room ID.
+<br/>
+Step 3: Chat with people in room and connect.
+<br/>
+Step 4: Click on Join meeting icon and it will redirect you to meeting.
+<br/>
+Step 5: Connect with people on meeting
+
+**To enable Transcript**
+<br/>
+Step 1: Click on enable transcript option under 3 dots.
+<br/>
+Step 2: Open transcript panel to see live speech to text , though will be visible infront as well.
+
+**To Start Screen Sharing**
+<br/>
+Click on screen share option and it will enable it to everyone in the meeting.
+
+**To Record Screen**
+<br/>
+Step 1: Click on start screen recording under 3 dots (only possible when screen sharing is already on).
+<br/>
+Step 2: Stop screen recording by clicking on "Stop screen recording" to save file locally on your device.
 
 # Agile Implementation
 The Development was a series of continuous Integration and continuous Deployment. Each functionality was divided in weeks under SCRUM.  Each sprint’s goal was to build the most important features first and come out with a potentially deliverable product. Testing was done on Selenium IDE. Also even adapt feature which is taken as customer needs, was added in subsequent sprint.
