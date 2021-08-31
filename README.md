@@ -28,14 +28,9 @@ were used to build this project.
 # Steps to Access
 **Important for cloning or forking project**
 <br/>
-* Please get MONGO URI from mongodb and paste it into .env as 
-<br/>
-MONGO = "uri token"
+* Please get MONGO URI from mongodb and paste it into .env as MONGO = "uri token"
 * Please get app Id and app secret from symbl.ai and paste it into .env as
-<br/>
-appId = "token"
-<br/>
-appSecret = "token"
+appId = "token" and appSecret = "token"
 * Set JWTSecret as per your needs in .env
 
 <br/>
