@@ -29,7 +29,7 @@ were used to build this project.
 **Important**
 <br/>
 * Please get MONGO URI from mongodb and paste it into .env
-* Please get app Id and app secret from symbl.ai
+* Please get app Id and app secret from symbl.ai and paste it into .env
 
 <br/>
 
