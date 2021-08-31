@@ -26,7 +26,7 @@ Challenge was basically about generating transcript and connecting two people on
 
 were used to build this project.
 # Steps to Access
-**Important**
+**Important for cloning or forking project**
 <br/>
 * Please get MONGO URI from mongodb and paste it into .env as 
 <br/>
