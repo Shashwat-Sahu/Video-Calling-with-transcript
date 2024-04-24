@@ -3,6 +3,8 @@ const http = require("http");
 const app = express();
 // const cors = require("cors");
 
+const path = require("path");
+
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader(
@@ -13,9 +15,6 @@ app.use((req, res, next) => {
     next();
 });
 app.use(express.json())
-app.get("/", (req, res) => {
-    res.send("Live")
-});
 
 // app.use(cors)
 
@@ -51,7 +50,6 @@ const io = socket(server, {
     }
 });
 require("dotenv").config();
-const path = require("path");
 const { route } = require("./Routes/auth");
 
 const users = {};
@@ -66,7 +64,7 @@ mongoose.connect(process.env.MONGO, {
 })
 
 mongoose.connection.on('connected', () => {
-    console.log('Connected to MongoDB', process.env.MONGO);
+    console.log('Connected to MongoDB');
 })
 
 mongoose.connection.on('error', (err) => {
@@ -319,6 +317,19 @@ io.on('connection', socket => {
 
 
 
+if(process.env.ENV=="PROD")
+{
+app.use(express.static(path.join(__dirname, 'build')))
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+})
+}
+else
+{
+    app.get("/", (req, res) => {
+        res.send("Live")
+    });
+}
 
 const PORT = process.env.PORT || 8000;
 

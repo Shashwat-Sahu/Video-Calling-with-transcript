@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "name": "online-feedback",
+    "builds": [
+      {
+          "src": "./index.js",
+          "use": "@vercel/node"
+      },
+      {
+          "src": "./build",
+          "use": "@vercel/static"
+      }
+  ],
+  "rewrites": [
+   {
+       "source": "/(.*)",
+       "destination": "/index.js"
+   }
+]
+ }

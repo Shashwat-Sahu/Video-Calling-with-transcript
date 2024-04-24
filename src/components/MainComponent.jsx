@@ -113,6 +113,7 @@ const MainComponent = (props) => {
                 'Authorization': `Bearer ${localStorage.getItem('TeamsToken')}`
             }
         }).then(data => {
+            console.log(data)
             setName(data.data.user.name)
             setUserId(data.data.user._id)
             roomsRef.current = roomsRef.current.concat(data.data.rooms)

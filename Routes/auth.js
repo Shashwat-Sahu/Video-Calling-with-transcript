@@ -102,6 +102,7 @@ router.post("/verifyotp",(req,res)=>{
         pass: process.env.emailPassword
       }
     });
+    console.log(transporter)
     var otp = Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9);
     var mailOptions = {
       from: {name:"Teams Microsoft",address:'teamsclonemicrosoft@gmail.com'},

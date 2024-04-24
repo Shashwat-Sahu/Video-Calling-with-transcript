@@ -66,7 +66,7 @@ function App(props) {
   useEffect(() => {
 
     fetch(url).then((data) => {
-
+      console.log(data)
       setLoader(false)
     }).catch(err => {
       console.log(err)
