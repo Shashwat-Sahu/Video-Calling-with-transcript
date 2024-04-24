@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ceeb8791.chunk.css",
+    "main.js": "/static/js/main.05430487.chunk.js",
+    "main.js.map": "/static/js/main.05430487.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.854ba1bb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.854ba1bb.js.map",
+    "static/css/2.a0ecf693.chunk.css": "/static/css/2.a0ecf693.chunk.css",
+    "static/js/2.4ccc19a1.chunk.js": "/static/js/2.4ccc19a1.chunk.js",
+    "static/js/2.4ccc19a1.chunk.js.map": "/static/js/2.4ccc19a1.chunk.js.map",
+    "static/js/3.13115ef2.chunk.js": "/static/js/3.13115ef2.chunk.js",
+    "static/js/3.13115ef2.chunk.js.map": "/static/js/3.13115ef2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a0ecf693.chunk.css.map": "/static/css/2.a0ecf693.chunk.css.map",
+    "static/css/main.ceeb8791.chunk.css.map": "/static/css/main.ceeb8791.chunk.css.map",
+    "static/js/2.4ccc19a1.chunk.js.LICENSE.txt": "/static/js/2.4ccc19a1.chunk.js.LICENSE.txt",
+    "static/media/avatar.cad37a31.png": "/static/media/avatar.cad37a31.png",
+    "static/media/signin.css": "/static/media/hand-painted-mountains.100910fd.jpg",
+    "static/media/home-right-vector.5801bc42.png": "/static/media/home-right-vector.5801bc42.png",
+    "static/media/microsoft-teams.daedc043.svg": "/static/media/microsoft-teams.daedc043.svg",
+    "static/media/mountains-home.e567e0a9.png": "/static/media/mountains-home.e567e0a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.854ba1bb.js",
+    "static/css/2.a0ecf693.chunk.css",
+    "static/js/2.4ccc19a1.chunk.js",
+    "static/css/main.ceeb8791.chunk.css",
+    "static/js/main.05430487.chunk.js"
+  ]
+}
